@@ -89,7 +89,7 @@
 		startScan()
 		setInterval(() => {
 			startScan()
-		}, 40000);
+		}, 60000);
 	})
 
 </script>

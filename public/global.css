@@ -43,15 +43,19 @@ input, button, select, textarea {
 	border: 1px solid #ccc;
 	border-radius: 2px;
 }
-
+button {
+	background-color: rgb(43, 53, 79);
+	border-radius: 6px;
+	box-shadow: 0px 10px 80px rgb(37 46 68);
+	color: white;
+	border: none;
+	cursor: pointer;
+}
+button:active {
+	color: black;
+}
 input:disabled {
 	color: #ccc;
-}
-
-button {
-	color: #333;
-	background-color: #f4f4f4;
-	outline: none;
 }
 
 button:disabled {

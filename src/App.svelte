@@ -97,7 +97,7 @@
 	<div class="centerwrapper">
 		<div class="hero">
 			<h1>Please don't use public CDNs.</h1>
-			<h3 class="subtitle">Public CDNs are insecure and can lead to security <a href="https://blog.ryotak.me/post/cdnjs-remote-code-execution-en/" rel="none" target="_blank">vulnerabilities</a> and developer <a href="https://httptoolkit.tech/blog/public-cdn-risks/" rel="none" target="_blank">headaches</a>. <br>These days, it's faster to load of services like <a href="https://vercel.com" target="_blank">Vercel</a> or <a href="https://www.netlify.com" target="_blank">Netlify</a>, not to mention vastly more secure.</h3>
+			<h3 class="subtitle">Public CDNs are insecure and can lead to security <a href="https://blog.ryotak.me/post/cdnjs-remote-code-execution-en/" rel="none" target="_blank">vulnerabilities</a> and developer <a href="https://httptoolkit.tech/blog/public-cdn-risks/" rel="none" target="_blank">headaches</a>. <br>These days, it's faster to load from services like <a href="https://vercel.com" target="_blank">Vercel</a> or <a href="https://www.netlify.com" target="_blank">Netlify</a>, not to mention vastly more secure.</h3>
 		</div>
 		<main>
 			<button on:click={startScan}>Run Again</button>
